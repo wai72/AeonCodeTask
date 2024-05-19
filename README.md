@@ -22,7 +22,8 @@ And, if you want to check twoSum (Question 2), please change the route name in A
 Simple Screen Shot
 
 
-<img width="558" alt="image" src="https://github.com/wai72/AeonCodeTask/assets/71938108/f375ba54-99a9-462f-b8b3-56c47d18c125">
+![Simulator Screenshot - iPhone SE (3rd generation) - 2024-05-19 at 16 19 51](https://github.com/wai72/AeonCodeTask/assets/71938108/a68c4a26-d518-43e7-895c-164bacb41ef4)
+
 
 
 
