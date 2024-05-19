@@ -2,23 +2,24 @@
 
 _git clone here_ : https://github.com/wai72/AeonCodeTask.git
 
-cd AeonCodeTask **For ios: cd ios; pod install**;
+cd AeonCodeTask 
+**For ios: cd ios; pod install**;
 
 run: 
 **react-native run-ios (for ios)**\n
-**react-native run-ios (for android)**
+**react-native run-android (for android)**
 
-If you want to see **Calculator(Question 1),** please change the route name in App.js file open commend image
+If you want to see **Calculator(Question 1),** please change the route name in *_App.js_* file open commend image
 <img width="558" alt="image" src="https://github.com/wai72/AeonCodeTask/assets/71938108/43f3058a-1cc0-4a7b-bd03-7a451f271b34">
 
-You can check the code for Question1: calculator.js _ src=> pages=> answers=> calculator.js
+You can check the code for Question1: *_calculator.js _ src=> pages=> answers=> calculator.js_*
 
 
 <img width="322" alt="image" src="https://github.com/wai72/AeonCodeTask/assets/71938108/69877bb7-58fe-4a8c-84f1-867bdeef17f5">
 
-And then, if you want to check **Dashboard Menu(Question 2)**, please change the route name in App.js file open commend You can check the code for Question1: webnavbar.js _ src=> pages=> answers=> webnavbar.js
+And then, if you want to check **Dashboard Menu(Question 2)**, please change the route name in*_App.js_* file open commend You can check the code for Question1: *_webnavbar.js _ src=> pages=> answers=> webnavbar.js_*
 
-And, if you want to check **twoSum (Question 3)**, please change the route name in App.js file open commend You can check the code for Question1: question3.js _ src=> pages=> answers=> question3.js
+And, if you want to check **twoSum (Question 3)**, please change the route name in *_App.js_* file open commend You can check the code for Question1: *_question3.js _ src=> pages=> answers=> question3.js_*
 
 
 **Simple Screen Shot**
