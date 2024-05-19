@@ -1,6 +1,6 @@
 How To run the code:
 
-git clone here :
+git clone here : https://github.com/wai72/AeonCodeTask.git
 
 cd collaberaCodeTask For ios: cd ios; pod install;
 
