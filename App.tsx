@@ -41,8 +41,8 @@ function App(): React.JSX.Element {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
           {/* <Question3/> */}
-          {/* <Calculator /> */}
-          <WebNavBar />
+          <Calculator />
+          {/* <WebNavBar /> */}
       </ScrollView>
     </SafeAreaView>
   );
