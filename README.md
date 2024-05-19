@@ -34,7 +34,7 @@ And, if you want to check **twoSum (Question 3)**, please change the route name 
 <img width="1692" alt="image" src="https://github.com/wai72/AeonCodeTask/assets/71938108/cd6f7d66-f43b-4ce6-8430-5ef96b27782e">
 
 
-Mobile view of Questiion 2 
+** Mobile view of Questiion 2 **
 
 <img width="523" alt="image" src="https://github.com/wai72/AeonCodeTask/assets/71938108/9b0088c8-c110-40a4-930f-a483d46e2ad0">
 
