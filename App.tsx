@@ -21,6 +21,7 @@ import {
   Colors,
 } from 'react-native/Libraries/NewAppScreen';
 import Question3 from './src/pages/answers/question3';
+import Calculator from './src/pages/answers/calculator';
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -38,7 +39,8 @@ function App(): React.JSX.Element {
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
-          <Question3/>
+          {/* <Question3/> */}
+          <Calculator />
       </ScrollView>
     </SafeAreaView>
   );

@@ -1,10 +1,9 @@
 import { useState } from "react";
-import { StyleSheet, View, Text, Button, TextInput } from "react-native"
+import { StyleSheet, View, Text, Button, TextInput, TouchableOpacity } from "react-native"
 
 const Question3 = () => {
 
     const [numbers, setNumbers] = useState('');
-    const [result, setResult] = useState('');
     const [target, setTarget] = useState('');
 
     const twoSum = (numbers, target) => {
@@ -26,10 +25,9 @@ const Question3 = () => {
 
     const calculate = () => {
         const numbersArray = [2,7,11,15];
-        const targetNumber = parseInt(21);
+        const targetNumber = parseInt(9);
         const res = twoSum(numbersArray, targetNumber);
-        setResult(res);
-        console.log(res)
+        console.log(twoSum(numbersArray, targetNumber));
     };
 
     return(
@@ -48,10 +46,10 @@ const Question3 = () => {
              value={target}
              onChangeText={setTarget}
             />
-            <Button style={styles.buttonStyle} title="Add Two Number" onPress={calculate} />
-            <Text style={styles.result}>
-                Total: {result}
-            </Text>
+            <TouchableOpacity style={styles.buttonStyle} onPress={calculate}>
+          <Text style>Add Two Number</Text>
+        </TouchableOpacity>
+           
         </View>
     );
 }
@@ -60,7 +58,10 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
-        alignItems: 'center',
+        justifyContent: 'center',
+        paddingLeft: 20,
+        paddingTop: 16,
+        backgroundColor: 'white'
     },
     title: {
         fontSize: 24,
@@ -68,7 +69,7 @@ const styles = StyleSheet.create({
     },
     inputStyle: {
         height: 40,
-        width: '80%',
+        width: '60%',
         borderColor: 'gray',
         borderWidth: 1,
         borderRadius: 2,
@@ -76,13 +77,14 @@ const styles = StyleSheet.create({
         paddingHorizontal: 16
     },
     buttonStyle:{
-        height: 40,
-        width: '80%',
+        width: '60%',
         borderColor: 'gray',
-        borderWidth: 1,
-        borderRadius: 2,
+        borderWidth: 2,
+        borderRadius: 5,
         marginBottom: 10,
-        paddingHorizontal: 16
+        padding: 8,
+        backgroundColor: '#D3D3D3',
+        alignItems: 'center'
         
     },
     result: {
